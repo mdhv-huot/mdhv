@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Poppins|Raleway:300|Lora|Montserrat|Source+Serif+Pro');
+/* stylish caligraphy*/
+@font-face {
+    font-family: Harley;
+    src: url(Harley_Script_Regular.ttf);
+}
+@font-face {
+    font-family: Stylish_Calligraphy;
+    src: url("../fonts/Stylish Calligraphy Demo.ttf");
+}
+body {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+@media only screen and (max-width: 600px) {
+    body {
+       font-size: 11px;
+    }
+}
+.bodytext p {
+    font-size: 1.5em;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+    color: darkblue;
+}
+
+/*CUSTOM SETTINGS FOR NON-MOBILE SCREENS*/
+
+@media screen and (min-width: 480px){
+    .twitter {
+        max-width: 700px; 
+        margin: auto;
+    }
+}
+
+/* NAVBAR */
+
+.navbar-default {
+   
+    font-family: "Montserrat", sans-serif;
+    font-size: 2em;
+    margin-bottom: 0px !important;
+  
+}
+/* Navbar text color*/
+.navbar.navbar-default.navbar-expand-md.fixed-top a {
+    color:#5f4b8b;
+}
+.navbar-nav.mr-auto li a {
+      color:#5f4b8b;
+    
+}
+/*END Navbar text color*/
+/*END NAVBAR*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#banner {
+    width: 100%;
+    height: auto;
+}
+
+#splash {
+    width: 100%;
+    height: auto;
+    margin-top: 0px !important;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: Stylish_Calligraphy;
+    color: #662ca6;
+    font-variant: initial;
+    padding-bottom: 0.5em;
+    padding-top:0.5em;
+}
+h1 {
+    font-size: 7em;
+
+}
+
+h2 {
+    font-size: 7em;
+}
+
+h3 {
+    font-size: 4em;
+}
+
+h4 {
+    font-size: 3em;
+}
+h5 {
+    font-size: 2em;
+}
+
+p {
+    font-size: 2em;
+}
+
+.centred {
+    text-align: center
+}
+
+
+figcaption {
+    color: slategray;
+    font-style: italic;
+    text-align: bottom;
+}
+
+
+/*CONTACT*/
+
+#map {
+   height: 100%;
+    width: 100%;
+}
+
+footer {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5em;
+    background-color: #d3b2ff;
+    padding-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.invite img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.left img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.bg-texture{
+    background: transparent -webkit-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
+    background: transparent -o-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
+    background: transparent -moz-radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
+    background: transparent radial-gradient(circle farthest-side at right bottom, #ec407a 5%, #e91e63 25%, #d81b60 80%, #c2185b 98%) repeat scroll 0% 0%;
+}
+
+.hero{
+    height: 100vh;
+    min-height: 500px;
+    padding: 100px 0;
+}
+
+.bg-white{
+    background: white;
+}
+
+section {
+    margin-bottom: 1em;
+}
+
+.padded_header {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.padded_div {
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    color: white;
+}
+
+.color_1 {
+    background: linear-gradient(to bottom right, rgba(45, 51, 255, 0.8), rgba(7, 13, 170, 0.8))
+;
+}
+
+.color_2 {
+    background: linear-gradient(to bottom right, rgba(123, 35, 208, 0.81), rgba(85, 4, 169, 0.8))
+
+}
+
+.color_3 {
+    background: linear-gradient(to bottom right, rgba(225, 20, 231, 0.81), rgba(168, 8, 165, 0.8))
+
+}
+
+
+
+.dark a {
+    color: #b1fbfa;
+    text-decoration: underline;
+    font-family: "Raleway", sans-serif;
+    font-variant: small-caps;
+
+}
+
+.dark a:hover {
+    color: darkred;
+}
+.padding-0 {
+    padding-right: 0;
+    padding-left: 0;
+}
+
